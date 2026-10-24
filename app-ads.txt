@@ -1,3 +1,4 @@
 # Yansh Labs - authorised ad sellers (https://iabtechlab.com/ads-txt/)
-# Replace pub-0000000000000000 with the publisher ID from AdMob (Account > Settings) before publishing.
-google.com, pub-0000000000000000, DIRECT, f08c47fec0942fa0
+# Once the AdMob account exists, uncomment the line below with the publisher ID from
+# AdMob (Account > Settings) in place of pub-0000000000000000.
+# google.com, pub-0000000000000000, DIRECT, f08c47fec0942fa0
