@@ -13,7 +13,7 @@
         <img src="icon.png" alt="" />
         <div>
           <h1>Privacy Policy</h1>
-          <p class="sub">Laddoo Waddoo, by Yansh Labs · Last updated 27 October 2026</p>
+          <p class="sub">Laddoo Waddoo, by Yansh Labs · Last updated 31 October 2026</p>
         </div>
       </header>
 
@@ -32,9 +32,9 @@
         To stop cheating on the daily limit of reward videos, the app gets a random ID when it first
         goes online (from Google Firebase, our server provider). It says nothing about who you are.
         Each reward video goes out with that ID and the date, and when you finish one, Google AdMob
-        tells our server, which counts it for that day. That count is all we keep, and it is
-        deleted after about a week. Uninstalling the app, or clearing its data, ends the link
-        between your phone and the ID.
+        tells our server, which counts it for that day. The counts are deleted after about a week.
+        The ID itself stays with Firebase until you uninstall the app or clear its data, which
+        ends the link between your phone and the ID.
       </p>
       <p>
         Your game progress (levels finished, stars, best scores, coins, lives, boosters) and your
@@ -78,7 +78,8 @@
         <li>
           <strong>Internet</strong>, to load the ads, and to check today's date and time with our
           website (yanshlabs.com), so lives and daily rewards follow the real clock (that check
-          sends nothing about you or your game), and to count finished reward videos with the
+          sends nothing about you or your game, though like any web request it shows your IP
+          address to the website's host), and to count finished reward videos with the
           random ID described above.
         </li>
         <li>
